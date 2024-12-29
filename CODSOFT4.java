@@ -34,8 +34,8 @@ public class CODSOFT4 {
     public static void main(String[] args) {
         Quiz[] quizzes = {
             new Quiz("What is the capital of India?", new String[]{"A. Dehli", "B. Bengaluru", "C. Patna", "D. Rajasthan"}, 'A'),
-            new Quiz("Who is the present P.M of India?", new String[]{"A. Modi", "B. rahul Gandhi", "C. Murmu ", "D. yogi"}, 'A'),
-            new Quiz("Who is wnown as 'Iron Man of India'?", new String[]{"A. Modi", "B. Sardar vallabhbhai Patel ", "C. Jamshed J", "D. Ratan Tata"}, 'B')
+            new Quiz("Who is the present P.M of India?", new String[]{"A. Modi", "B. Rahul Gandhi", "C. Murmu ", "D. yogi"}, 'A'),
+            new Quiz("Who is known as 'Iron Man of India'?", new String[]{"A. Modi", "B. Sardar vallabhbhai Patel ", "C. Jamshed J", "D. Ratan Tata"}, 'B')
         };
 
         for (Quiz quiz : quizzes) {
